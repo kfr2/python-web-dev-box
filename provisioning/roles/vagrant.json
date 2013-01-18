@@ -1,0 +1,31 @@
+{
+    "name": "vagrant",
+    "description": "A Python development environment.",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+      "postgresql": {
+            "listen_addresses": "*",
+            "ssl": false,
+            "password": {
+                "postgres": "secret"
+            }
+        }  
+    },
+    "run_list": [
+      "recipe[apt]",
+      "recipe[build-essential]",
+      "recipe[zsh]",
+      "recipe[openssl]",
+      "recipe[git]",
+      "recipe[python::pip]",
+      "recipe[python::virtualenv]",
+      "recipe[memcached]",
+      "recipe[postgresql]",
+      "recipe[postgresql::client]",
+      "recipe[postgresql::server]",
+      "recipe[python-web-dev]"
+    ]
+}
