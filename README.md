@@ -37,4 +37,4 @@ powerful and wonderful [Vagrant](http://vagrantup.com) and [Chef-Solo](http://va
 This project is released under the MIT License.  Please see `LICENSE` for more information.
 
 ## Thanks
-This project is based off Julien Phalip's [djangoproject.com fork](https://github.com/jphalip/djangoproject.com/tree/vagrant) (vagrant branch).
+This project is based off Julien Phalip's [djangoproject.com fork](https://github.com/jphalip/djangoproject.com/tree/vagrant) (vagrant branch).  It furthermore appropriates components from [Rogelio Castillo's vagrant-postgrelsql](https://github.com/rogelio2k/vagrant-postgresql).
