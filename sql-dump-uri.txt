@@ -1,1 +1,1 @@
-https://gist.github.com/raw/990010a4ae037266ac35/c8f54b1674b56d586ff9a07bda9bb51f417080dc/empty_table.sq://gist.github.com/raw/990010a4ae037266ac35/c8f54b1674b56d586ff9a07bda9bb51f417080dc/empty_table.sql
+https://gist.github.com/kfr2/990010a4ae037266ac35/raw/c53b31bfde6a2f13e1985dadc5e6fb91f66a43e5/nothing.sql

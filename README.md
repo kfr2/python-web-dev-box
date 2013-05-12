@@ -12,7 +12,7 @@ powerful and wonderful [Vagrant](http://vagrantup.com) and [Chef-Solo](http://va
    link instead.
 7. Update `sql-dump-uri.txt` to contain the URI of a SQL dump to load into the server's database upon provisioning.  Alternatively, you may copy the dump file into `provisioning/initial.sql`.  If you do not wish for initial loading of data, create `.initial_db_loaded` within this project's root directory.
 8. Modify provisioning files/Chef recipes as necessary.
-9. Ascertain `project/requirements/local.txt` and `project/requirements/deploy.txt`
+9. Ascertain `project/requirements/dev.txt` and `project/requirements/prod.txt`
    include any necessary Python packages.  They will be installed during provisioning.
 10. Run `vagrant up`
 11. Wait a number of minutes while the VM loads and provisioning occurs.
